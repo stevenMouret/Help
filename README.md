@@ -1,7 +1,9 @@
 # Help
 
 ## Clone :
+```git
 git clone https://stevenMouret@github.com/stevenMouret/repo.git
+```
 
 ## Status
 ```git
