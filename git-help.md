@@ -47,6 +47,12 @@ git commit -m "Message du commit"
 git push
 ```
 
+## Supprimer un fichier
+```git
+git rm file.txt
+git commit -m "remove file.txt"
+```
+
 ## Changer l'uri du remote Git repository
 ```git
 git remote set-url origin https://github.com/user/repo.git
