@@ -78,6 +78,11 @@ git reset --hard
 git clean -fd
 ```
 
+##Récupérer les références des données du dépot distant
+```git
+git fetch
+```
+
 ## Pour commiter les fichiers locales,
 
 checkout version locale de toute les fichiers
@@ -95,8 +100,5 @@ commiter le merge
 git commit
 ```
 
-Récupérer les références des données du dépot distant
-```git
-git fetch
-```
+
 
