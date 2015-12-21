@@ -30,7 +30,7 @@ git clone https://stevenMouret@github.com/stevenMouret/repo.git
 git status
 ```
 
-## Commiter
+## Committer
 Se rendre dans le répertoire
 
 ```git
@@ -73,9 +73,14 @@ git remote -v
 git merge --abort
 ```
 
-## Pour annuler les modifications dans les fichiers existants :
+## Pour annuler les modifications quand on vient de committer
 ```git
 git reset --hard
+```
+
+## Pour annuler les modifications quand on a pas encore committé
+```git
+git reset --hard HEAD
 ```
 
 ## Pour supprimer tous les fichiers et répértoires,
@@ -88,7 +93,7 @@ git clean -fd
 git fetch
 ```
 
-## Pour commiter les fichiers locales,
+## Pour committer les fichiers locales,
 
 checkout version locale de toute les fichiers
 ```git
@@ -100,7 +105,7 @@ marquer tous les fichiers comme mergé
 git add -u
 ```
 
-commiter le merge
+committer le merge
 ```git
 git commit
 ```
