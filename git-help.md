@@ -83,6 +83,11 @@ git reset --hard
 git reset --hard HEAD
 ```
 
+## Pour supprimer les fichiers après un ADD avant de committer
+```git
+git reset HEAD file
+```
+
 ## Pour supprimer tous les fichiers et répértoires,
 ```git
 git clean -fd
