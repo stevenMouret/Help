@@ -88,6 +88,11 @@ git reset --hard HEAD
 git reset HEAD file
 ```
 
+## Pour supprimer un dossier après un ADD avant de committer
+```git
+git rm --cached -r directory-name
+```
+
 ## Pour supprimer tous les fichiers et répértoires,
 ```git
 git clean -fd
