@@ -60,6 +60,11 @@ git commit -m "remove file.txt"
 git diff master origin/master
 ```
 
+### Diff (seulement les fichiers)
+```git
+git diff -–name-only master origin/master
+```
+
 ### Changer l'uri du remote Git repository
 ```git
 git remote set-url origin https://github.com/user/repo.git
