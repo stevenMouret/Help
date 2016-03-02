@@ -108,6 +108,7 @@ git clean -fd
 ###Récupérer les références des données du dépot distant
 ```git
 git fetch
+git fetch origin master
 ```
 
 ### Pour committer les fichiers locales,
