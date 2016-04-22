@@ -141,4 +141,11 @@ git log --pretty=format:"%h %s" --graph
 ```
 
 
+## Configuration de Git
+Configurer les chemins vers les fichiers en long
+```git
+git config core.longpaths true
+```
+
+
 
