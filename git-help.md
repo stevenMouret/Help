@@ -27,6 +27,11 @@ git remote -v
 git clone https://stevenMouret@github.com/stevenMouret/repo.git
 ```
 
+### Clone à partie de la racine
+```git
+git clone https://stevenMouret@github.com/stevenMouret/repo.git .
+```
+
 ### Status
 ```git
 git status
@@ -146,6 +151,6 @@ Configurer les chemins vers les fichiers en long
 ```git
 git config core.longpaths true
 ```
-
+git@github.com:stevenMouret/gulp-compass-nunjucks.git
 
 
