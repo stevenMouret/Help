@@ -105,7 +105,7 @@ git reset HEAD file
 git rm --cached -r directory-name
 ```
 
-### Pour supprimer tous les fichiers et répértoires,
+### Pour supprimer tous les fichiers et répértoires qui ne sont pas versionnés
 ```git
 git clean -fd
 ```
