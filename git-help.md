@@ -70,6 +70,11 @@ git diff master origin/master
 git diff -–name-only master origin/master
 ```
 
+### Diff du master et du HEAD
+```git
+git diff origin/master..HEAD
+```
+
 ### Changer l'uri du remote Git repository
 ```git
 git remote set-url origin https://github.com/user/repo.git
