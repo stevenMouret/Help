@@ -173,3 +173,9 @@ Voir toutes les branches (* donne la branche actuelle)
 ```git
 git branch
 ```
+
+Changer de branche (vérifier d'avoit tout commité avant de changer de branche) 
+```git
+git checkout [nom_de_la_branche]
+```
+
