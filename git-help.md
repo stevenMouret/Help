@@ -158,4 +158,18 @@ git config core.longpaths true
 ```
 git@github.com:stevenMouret/gulp-compass-nunjucks.git
 
+## Branches
+Créer une branche
+```git
+git checkout -b [nom_de_la_branche]
+```
 
+Pusher la branche
+```git
+git push origin [nom_de_la_branche]
+```
+
+Voir toutes les branches (* donne la branche actuelle) 
+```git
+git branch
+```
