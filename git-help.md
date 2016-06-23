@@ -179,3 +179,11 @@ Changer de branche (vérifier d'avoit tout commité avant de changer de branche)
 git checkout [nom_de_la_branche]
 ```
 
+Merger la branche [nom_de_la_branche] dans master
+```git
+git checkout master
+git pull origin master
+git merge [nom_de_la_branche]
+git push origin master
+```
+
