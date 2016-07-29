@@ -187,3 +187,40 @@ git merge [nom_de_la_branche]
 git push origin master
 ```
 
+#Ajouter une clé pour github
+
+Vérifier qu'on à pas déjà une clé existante.
+```
+ls -al ~/.ssh
+```
+
+Dans le cas ou elle n'existe pas créons là.
+
+## Génération de la clé
+```
+ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+```
+presser enter pour garder le nom par défaut du fichier de la clé : id_rsa
+
+Ajouter la pass phrase
+
+##Ajouter la clé à l'agent SSH
+
+S'assurer que l'agent est actif
+```
+eval "$(ssh-agent -s)"
+```
+
+Ajout de la clé à l'agent SSH
+```
+ssh-add ~/.ssh/id_rsa
+```
+
+## Ajout de la clé sur le compte Github
+
+Dans Settings > SSH and GPG keys
+Click sur 'New SSH key'
+Donner un titre 'Personnal key for windows'
+Ajouter la clé publique qui commence par ssh-rsa
+Par défaut elle doit être dans le dossier c:/user/name/.ssh/id_rsa.pub
+
