@@ -169,9 +169,14 @@ Pusher la branche
 git push origin [nom_de_la_branche]
 ```
 
-Voir toutes les branches (* donne la branche actuelle) 
+Voir toutes les branches locales (* donne la branche actuelle) 
 ```git
 git branch
+```
+
+Voir toutes les branches locales et distantes (* donne la branche actuelle) 
+```git
+git branch -a
 ```
 
 Changer de branche (vérifier d'avoit tout commité avant de changer de branche) 
