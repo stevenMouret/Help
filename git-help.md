@@ -192,6 +192,12 @@ git merge [nom_de_la_branche]
 git push origin master
 ```
 
+Supprimer une branche
+```git
+git branch -d [nom_de_la_branche]
+git push origin --delete [nom_de_la_branche]
+```
+
 #Ajouter une clé pour github
 
 Vérifier qu'on à pas déjà une clé existante.
