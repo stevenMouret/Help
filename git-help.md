@@ -198,6 +198,20 @@ git branch -d [nom_de_la_branche]
 git push origin --delete [nom_de_la_branche]
 ```
 
+Mettre à jour une branche par rapport à une autre
+```git
+git checkout [nom_de_la_branche_a_mettre_a_jour]
+git rebase [nom_de_la_branche_source]
+git push origin [nom_de_la_branche_en_cours]
+```
+
+Exemple si on veut mettre à jour la branche intégration provenant de preproduction
+```git
+git checkout integration
+git rebase preproduction
+git push origin integration
+```
+
 #Ajouter une clé pour github
 
 Vérifier qu'on à pas déjà une clé existante.
