@@ -121,6 +121,11 @@ git fetch
 git fetch origin master
 ```
 
+###Récupérer les références des données de tous les dépots distants avec les supressions
+```git
+git fetch --all --prune
+```
+
 ### Pour committer les fichiers locales,
 
 checkout version locale de toute les fichiers
