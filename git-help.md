@@ -85,7 +85,7 @@ git remote set-url origin https://github.com/user/repo.git
 git remote -v
 ```
 
-### Pour arreter un merge en ligne de commande :
+### Pour arrêter un merge en ligne de commande :
 ```git
 git merge --abort
 ```
@@ -126,14 +126,14 @@ git fetch origin master
 git fetch --all --prune
 ```
 
-### Pour committer les fichiers locales,
+### Pour committer les fichiers locaux,
 
 checkout version locale de toute les fichiers
 ```git
 git checkout --ours .
 ```
 
-marquer tous les fichiers comme mergé
+marquer tous les fichiers comme mergés
 ```git
 git add -u
 ```
@@ -184,7 +184,7 @@ Voir toutes les branches locales et distantes (* donne la branche actuelle)
 git branch -a
 ```
 
-Changer de branche (vérifier d'avoit tout commité avant de changer de branche) 
+Changer de branche (vérifier d'avoit tout committé avant de changer de branche) 
 ```git
 git checkout [nom_de_la_branche]
 ```
