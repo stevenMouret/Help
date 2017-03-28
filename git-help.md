@@ -143,6 +143,11 @@ committer le merge
 git commit
 ```
 
+Modifier le message du dernier commit non pushé
+```git
+git commit --amend -m "New commit message"
+```
+
 ## Historique
 
 ### Voir l'historique
