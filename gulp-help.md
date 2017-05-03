@@ -36,3 +36,8 @@ Call packages
 ```javascript
 var gulp = require('gulp');
 ```
+
+Install multiple packages
+```npm
+npm i -D package_name package_name package_name
+```
