@@ -1,7 +1,6 @@
 # Init gulp project
 
 Init project
-
 ```npm
 npm init
 ```
@@ -9,7 +8,6 @@ npm init
 Answer the questions
 
 Install gulp globally
-
 ```npm
 npm i -g gulp
 ```
@@ -30,9 +28,7 @@ Now you can install locally your gulp packages
 npm i -D package_name
 ```
 
-Create your gulpfile.js
-Call packages
-
+Create your gulpfile.js and call packages
 ```javascript
 var gulp = require('gulp');
 ```
