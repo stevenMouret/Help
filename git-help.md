@@ -22,6 +22,13 @@ git remote
 git remote -v
 ```
 
+### Changer le remote d'un projet qu'on vient de cloner
+```git
+git remote rm origin
+git remote add origin ssh://git@ns341990.ip-188-165-254.eu:2222/ADDRESSE-DU-SITE/integration.git
+git push origin master
+```
+
 ### Clone
 ```git
 git clone https://stevenMouret@github.com/stevenMouret/repo.git
