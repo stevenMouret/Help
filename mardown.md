@@ -21,3 +21,15 @@
 
 ___
 ```
+
+---
+
+Hyphens
+
+***
+
+Asterisks
+
+___
+
+Underscores
