@@ -11,3 +11,13 @@
 | [Useful tools](useful-tools.md) |
 | [Troubleshooting](troubleshooting.md) |
 ---------------
+
+## Horizontal rule
+
+```mardown
+---
+
+***
+
+___
+```
