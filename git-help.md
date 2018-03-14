@@ -266,4 +266,15 @@ Donner un titre 'Personnal key for windows'
 Ajouter la clé publique qui commence par ssh-rsa
 Par défaut elle doit être dans le dossier c:/user/name/.ssh/id_rsa.pub
 
+## Créer une release
+Si la release est basé sur master il faut s'y rendre dans un premier temps
+```
+git checkout master
+git pull origin master
+git tag -a v0.0.1 -m 'Version 0.0.1'
+git push origin v0.0.1
+```
+
+
+
 
