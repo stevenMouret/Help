@@ -85,5 +85,5 @@ var myFunction = function(item) {
 
 ES6
 ```
-myFunction = (item, index) => console.log(item);
+const myFunction = (item, index) => console.log(item);
 ```
