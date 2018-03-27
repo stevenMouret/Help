@@ -275,6 +275,16 @@ git tag -a v0.0.1 -m 'Version 0.0.1'
 git push origin v0.0.1
 ```
 
+# Configuration
 
+## email & name
+```
+git config user.email name@domain.com
+git config user.name "firstname lastname"
+```
 
-
+## line separator
+```
+git config --global core.eol lf
+git config --gloabl core.autocrlf false
+```
