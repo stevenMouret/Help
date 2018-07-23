@@ -9,7 +9,7 @@ Input
 ```sass
 $color: #000;
 span {
-    color: opacity($color, .5);
+    color: opacify($color, .5);
 }
 ```
 
