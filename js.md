@@ -25,8 +25,11 @@ node.classList.remove('-hide', '-js');
 // Toggle class
 node.classList.toggle('-hide');
 
-// Contain class
+// Has class, return true or false
 node.classList.contains('-hide');
+
+// Has not class, return false or true
+!node.classList.contains('-hide');
 ```
 
 # Module
