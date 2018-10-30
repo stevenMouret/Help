@@ -14,6 +14,19 @@ var x = document.querySelector('.someclass').nextElementSibling;
 ```javascript
 // Add the class
 node.classList.add('-hide');
+
+// Remove the class
+node.classList.remove('-hide');
+
+// Add or remove multiple classes
+node.classList.add('-hide', '-js');
+node.classList.remove('-hide', '-js');
+
+// Toggle class
+node.classList.toggle('-hide');
+
+// Contain class
+node.classList.contains('-hide');
 ```
 
 # Module
