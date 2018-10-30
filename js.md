@@ -5,6 +5,17 @@
 var x = document.querySelector('.someclass').nextElementSibling;
 ```
 
+## Grab Children
+```javascript
+var x = document.querySelector('.someclass').nextElementSibling;
+```
+
+## Class
+```javascript
+// Add the class
+node.classList.add('-hide');
+```
+
 # Module
 
 ES6: Doesn't work because must be running on server. Bracket software allows to create local server with livereload.
