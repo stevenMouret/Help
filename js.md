@@ -7,7 +7,7 @@ var x = document.querySelector('.someclass').nextElementSibling;
 
 ## Grab Children
 ```javascript
-var x = document.querySelector('.someclass').nextElementSibling;
+var x = document.querySelector('.someclass').childNodes;
 ```
 
 ## Class
