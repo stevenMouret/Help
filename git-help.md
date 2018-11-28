@@ -288,3 +288,20 @@ git config user.name "firstname lastname"
 git config --global core.eol lf
 git config --gloabl core.autocrlf false
 ```
+
+# Tag
+
+## Lister les tags
+```
+git tag
+```
+
+## Créer un tag avec commentaire
+```
+git tag 1.2.1 -m 'comment'
+```
+
+## Push tag
+```
+git push --tags
+```
