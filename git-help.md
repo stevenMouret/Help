@@ -286,7 +286,7 @@ git config user.name "firstname lastname"
 ## line separator
 ```
 git config --global core.eol lf
-git config --gloabl core.autocrlf false
+git config --global core.autocrlf false
 ```
 
 # Tag
