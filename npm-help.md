@@ -14,8 +14,8 @@ Update specific package
 
 manage minor or patch release with ~ or ^
 
-~ Patch release : 1.0.x
-^ Minor release : 1.x
+* ~ Patch release : 1.0.x
+* ^ Minor release : 1.x
 
 ```git
 npm install @fortawesome/fontawesome-pro@~5.7.2
